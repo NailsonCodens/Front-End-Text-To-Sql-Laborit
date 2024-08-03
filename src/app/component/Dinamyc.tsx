@@ -1,6 +1,6 @@
 import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
 
-const DynamicTable = ({ data }) => {
+const DynamicTable = ({ data }: any) => {
     if (!Array.isArray(data) || data.length === 0) return null;
     
     // Gera as colunas dinamicamente com base nas chaves dos dados
